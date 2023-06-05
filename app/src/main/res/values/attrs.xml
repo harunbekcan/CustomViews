@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomToolbarView">
+        <attr name="toolbar_title" format="string"/>
+        <attr name="toolbar_filter_button" format="boolean"/>
+    </declare-styleable>
+
+</resources>

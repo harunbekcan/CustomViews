@@ -6,6 +6,14 @@ import com.harunbekcan.customviews.databinding.ActivityMainBinding
 
 class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
 
-    override fun prepareView(savedInstanceState: Bundle?) {}
+    override fun prepareView(savedInstanceState: Bundle?) {
+        setToolbarTitle()
+    }
 
+    private fun setToolbarTitle(){
+        binding.mainToolbarView.apply {
+            setToolbarTitle("HARUN BEKCAN")
+            showFilterButton(true)
+        }
+    }
 }
