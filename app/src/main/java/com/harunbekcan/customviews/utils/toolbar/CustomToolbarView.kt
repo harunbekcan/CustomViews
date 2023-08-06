@@ -1,4 +1,4 @@
-package com.harunbekcan.customviews.utils
+package com.harunbekcan.customviews.utils.toolbar
 
 import android.content.Context
 import android.util.AttributeSet

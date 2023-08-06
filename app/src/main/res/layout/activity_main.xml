@@ -6,10 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
-    <com.harunbekcan.customviews.utils.CustomToolbarView
+    <com.harunbekcan.customviews.utils.toolbar.CustomToolbarView
         android:id="@+id/mainToolbarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/showBottomSheetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_bottom_sheet"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainToolbarView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
